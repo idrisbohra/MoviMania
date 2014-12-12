@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#303030" >
+
+    <TextView
+        android:id="@+id/released_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/movie_thumb_icon"
+        android:layout_below="@+id/movie_thumb_icon"
+        android:padding="5dp"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/adult_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/released_text_view"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:padding="5dp"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/movie_thumb_icon"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="5dip"
+         />
+
+    <TextView
+        android:id="@+id/name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/movie_thumb_icon"
+        android:layout_alignTop="@+id/movie_thumb_icon"
+        android:layout_toLeftOf="@+id/imageView1"
+        android:layout_toRightOf="@+id/movie_thumb_icon"
+        android:padding="5dip"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name_text_view"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_launcher02" />
+
+</RelativeLayout>

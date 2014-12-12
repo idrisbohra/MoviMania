@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">MoviMania</string>
+    <string name="developed_by">Developed By</string>
+    <string name="name">IDRIS BOHRA</string>
+    <string name="upcoming">Upcoming Movies</string>
+	<string name="message">loading movies...</string>
+	
+</resources>
