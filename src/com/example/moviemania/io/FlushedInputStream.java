@@ -3,9 +3,7 @@ package com.example.moviemania.io;
 import java.io.FilterInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-/**
-* Created by Chandu on 6/22/2014.
-*/
+
 public class FlushedInputStream extends FilterInputStream {
 public FlushedInputStream(InputStream inputStream) {
 super(inputStream);
