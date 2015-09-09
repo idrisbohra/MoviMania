@@ -2,9 +2,7 @@ package com.example.moviemania.services;
 
 import java.net.URLEncoder;
 import java.util.ArrayList;
-/**
-* Created by Chandu on 6/22/2014.
-*/
+
 public abstract class GenericSeeker<E> {
 protected static final String BASE_URL = "https://api.themoviedb.org/3/movie/upcoming";
 protected static final String API_KEY = "b7cd3340a794e5a2f35e3abb820b497f";
