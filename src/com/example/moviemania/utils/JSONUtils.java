@@ -9,9 +9,6 @@ import org.json.JSONObject;
 import com.example.moviemania.model.Movie;
 
 
-/**
-* Created by Chandu on 6/22/2014.
-*/
 public class JSONUtils {
 
 public static ArrayList<Movie> parseMovieResponse(String jsonStr) {
