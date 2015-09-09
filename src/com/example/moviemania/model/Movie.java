@@ -4,9 +4,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 import android.util.Log;
-/**
-* Created by Chandu on 6/22/2014.
-*/
+
 public class Movie implements Serializable{
 private final String BASE_URL = "http://image.tmdb.org/t/p/";
 private final String SIZE = "w92"; //['w92', 'w154', 'w185', 'w342', 'w500', 'original']
